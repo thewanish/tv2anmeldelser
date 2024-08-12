@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Arial";
+    align-items: center;
+    color: w;
+}
+
+
+.form {
+    background-color: white;
+    width: 150%;
+    height: 100%;
+    position: static;
+    border-radius: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:100px;
+}
+
+.google-login {
+    width:60%;
+    height: 1em;
+    display: flex;
+    
+}
+
+
+/*tekst feltene*/
+input {
+    border: none;
+    background-color: rgb(229, 226, 226);
+    width: 80%;
+    border-radius: 0.25em;
+    text-align: center;
+    padding: 2em;
+    font-size: 0.75em;
+}
+
+/*når trykker på feltene */
+input:focus {
+    outline-color: rgb(32, 177, 255);
+}
+
+
+.login-knapp {
+    width: 40%;
+    height: 3em;
+    background-color: rgb(32, 177, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s; 
+    cursor: pointer;
+}
+
+/* hover når du trykker */ 
+.login-knapp:hover { transform: scale(1.2);}
+
+
+
+
+
+
